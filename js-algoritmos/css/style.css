@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+body{
+    
+        background: rgb(0, 0, 0);
+       background:url("../img/nat.gif");
+       background-size: cover;
+       text-align: center;
+       font-family: 'Libre Baskerville', serif;
+    } 
+    
+    h1{
+        color: rgba(0, 0, 0, 0.603);
+         font-family:Arial, Helvetica, sans-serif;
+         text-align: center;
+         font-size: 50px;
+    }
+    
+    button{
+        padding: 15px 40px;
+        font-size: 22px;
+        background: transparent;
+        border: 3px solid rgba(0, 0, 0, 0.658);
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        transition: 1s;
+        font-family: 'Libre Baskerville', serif;
+    }
+    button:hover {
+        border: 3px solid rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+        font-family: 'Libre Baskerville', serif;
+    }
